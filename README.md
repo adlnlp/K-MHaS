@@ -3,12 +3,9 @@
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
-This repository contains Korean Hate Speech dataset for paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf). 
-
-
-#### :movie_camera: [Paper Presentation] Please click on the image below:
-
+#### :movie_camera: [Paper Presentation] Please click on the image below (link to youtube):
 [<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)
+
 
 ## Dataset Description 
 We introduce **K-MHaS**, a new multi-label dataset for **hate speech detection** that effectively handles **Korean** language patterns. 
@@ -56,6 +53,7 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 다들 오지랖 좀...되게 할 짓 없어보여요	8
 ```
 
+
 ## Experiments
 We evaluate strong baseline experiments on our dataset using Korean-BERT-based language models with six different metrics (F1-[macro, micro, weighted], Exact Match, AUC and Hamming Loss). 
 
@@ -66,15 +64,14 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
     - (1) the character-level tokenizer; or
     - (2) the sub-character-level tokenizer. 
 
-For breakdown micro F1-scores for the multi-label classification, KR-BERT using sub-character-level tokenizer achieved the best, or second best performance. It uses the sub-character tokeniser that can decompose Hangul(Korean language) syllable characters into sub-characters. It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels. For details, please check our [K-MHaS paper](https://arxiv.org/pdf/2208.10684.pdf).
 
-*The overall performance for all labels*
+**The overall performance for all labels**
 - The micro F1-score range between 0.8139 (Multi-BERT) and 0.8500 (KR-BERT-c: using character-level tokenizer).
 - KoELECTRA obtains overall the best or second best among six metrics. 
 - This indicates the effects of the pre-training data source, considering that the KoELECTRA corpora contains modern slang and buzzwords,
 [<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/10_overallEval.png" width="70%">]
 
-*breakdown micro F1-scores for the multi-label classification*
+**The breakdown micro F1-scores for the multi-label classification**
 - KR-BERT using sub-character-level tokenizer achieved the best, or second best performance.
 - The sub-character tokeniser can decompose Hangul(Korean language) syllable characters into sub-characters. 
 - It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels.

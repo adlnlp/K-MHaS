@@ -1,4 +1,4 @@
-# K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment (https://arxiv.org/pdf/2208.10684.pdf)
+# K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment
 
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
@@ -62,7 +62,8 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
     - (1) the character-level tokenizer; or
     - (2) the sub-character-level tokenizer. 
 
-For the multi-label classification, KR-BERT using sub-character-level tokenizer achieved the best, or second best performance. It uses the sub-character tokeniser that can decompose Hangul(Korean language) syllable characters into sub-characters. It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels. For details, please check our [K-MHaS paper](https://arxiv.org/pdf/2208.10684.pdf).
+For breakdown micro F1-scores for the multi-label classification, KR-BERT using sub-character-level tokenizer achieved the best, or second best performance. It uses the sub-character tokeniser that can decompose Hangul(Korean language) syllable characters into sub-characters. It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels. For details, please check our [K-MHaS paper](https://arxiv.org/pdf/2208.10684.pdf).
+
 
 
 ## Contributors

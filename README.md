@@ -3,7 +3,8 @@
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
-#### :movie_camera: [Paper Presentation] Please click on the image below (link to youtube):
+**:movie_camera: Paper Presentation** 
+- Please click on the image below (link to youtube):
 [<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)
 
 
@@ -64,19 +65,21 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
     - (1) the character-level tokenizer; or
     - (2) the sub-character-level tokenizer. 
 
-
+---
 **The overall performance for all labels**
 - The micro F1-score range between 0.8139 (Multi-BERT) and 0.8500 (KR-BERT-c: using character-level tokenizer).
 - KoELECTRA obtains overall the best or second best among six metrics. 
-- This indicates the effects of the pre-training data source, considering that the KoELECTRA corpora contains modern slang and buzzwords,
-[<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/10_overallEval.png" width="70%">]
+- This indicates the effects of the pre-training data source, considering that the KoELECTRA corpora contains modern slang and buzzwords.
 
+<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/10_overallEval.png" width="70%">
+
+---
 **The breakdown micro F1-scores for the multi-label classification**
 - KR-BERT using sub-character-level tokenizer achieved the best, or second best performance.
 - The sub-character tokeniser can decompose Hangul(Korean language) syllable characters into sub-characters. 
 - It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels.
-[<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/11_multiEval.png" width="70%">]
-
+<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/11_multiEval.png" width="70%">
+---
 
 ## Contributors
 The contributors of the work are: 

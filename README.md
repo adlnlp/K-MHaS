@@ -1,11 +1,9 @@
-# K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment
-
-This repository contains Korean Hate Speech dataset for paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf). 
+# K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment (https://arxiv.org/pdf/2208.10684.pdf)
 
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
-### [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf) 
-### Accepted by the 29th International Conference on Computational Linguistics (COLING 2022) 
+### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
+This repository contains Korean Hate Speech dataset for paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf). 
 
 ## Dataset Description 
 We introduce **K-MHaS**, a new multi-label dataset for **hate speech detection** that effectively handles **Korean** language patterns. 

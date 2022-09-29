@@ -74,7 +74,7 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
 <img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/10_overallEval.png" width="70%">
 
 ---
-**The breakdown micro F1-scores for the multi-label classification**
+**The breakdown performance for the multi-label classification**
 - KR-BERT using sub-character-level tokenizer achieved the best, or second best performance.
 - The sub-character tokeniser can decompose Hangul(Korean language) syllable characters into sub-characters. 
 - It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels.

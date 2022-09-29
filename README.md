@@ -3,12 +3,12 @@
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
-This repository contains Korean Hate Speech dataset for paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf). 
+
 
 ## Dataset Description 
 We introduce **K-MHaS**, a new multi-label dataset for **hate speech detection** that effectively handles **Korean** language patterns. 
-- Our dataset consists of **109,692** utterances from Korean online news comments, labelled with 8 fine-grained hate speech classes. 
-- K-MHaS is compatible with previous work on hate speech in other languages, by providing binary classification and multi-label classification from 1(one) to 4(four) labels. 
+- Our dataset consists of **109,692** utterances from **Korean online news comments**, labelled with 8 fine-grained hate speech classes. 
+- K-MHaS is compatible with previous work on hate speech in other languages, by providing (a)binary classification and (b)multi-label classification from 1(one) to 4(four) labels. 
 - The unlabelled raw data was collected from January 2018 to June 2020. 
 
 
@@ -27,7 +27,7 @@ Our annotation scheme has two layers:
     - `Race`(인종차별)
     - `Profanity`(혐오욕설)
 
-For the fine-grained classification, a ‘Hate Speech’ class from the binary classification, is broken down into eight classes, associated with the hate speech category. In order to reflect the social and historical context, we select the eight hate speech classes. For example, the ‘politics’ class is chosen, due to a significant influence on the style of Korean hate speech.
+For the fine-grained classification, a `Hate Speech` class from the binary classification, is broken down into eight classes, associated with the hate speech category. In order to reflect the social and historical context, we select the eight hate speech classes. For example, the `politics` class is chosen, due to a significant influence on the style of Korean hate speech.
 
 
 ## Dataset Details
@@ -55,10 +55,10 @@ OOO천지 개독교 새끼들아 다 착해져라!	3,7
 ## Experiments
 We evaluate strong baseline experiments on our dataset using Korean-BERT-based language models with six different metrics (F1-[macro, micro, weighted], Exact Match, AUC and Hamming Loss). 
 
-- **MultiBERT (Wolf et al., 2020)** : pre-trained on the Wikipedia in 104 different languages (110M parameters and 119K vocab.). 
-- **KoELECTRA (Park, 2020)** : pre-trained on 34GB Korean news, Wikipedia, Namu (Korean wiki) and Modu (14M parameters and 35K vocab.). 
-- **KoBERT (SKTBrain, 2019)** : pre-trained on 54M words from Korean Wikipedia (92M parameters and 8K vocab.). 
-- **KR-BERT (Lee et al., 2020)** : pre-trained on 2.47GB corpus with 233M words from Korean Wikipedia and news, applying either
+- **MultiBERT[https://huggingface.co/bert-base-multilingual-cased] (Wolf et al., 2020)** : pre-trained on the Wikipedia in 104 different languages (110M parameters and 119K vocab.). 
+- **KoELECTRA[https://github.com/monologg/KoELECTRA] (Park, 2020)** : pre-trained on 34GB Korean news, Wikipedia, Namu (Korean wiki) and Modu (14M parameters and 35K vocab.). 
+- **KoBERT[https://github.com/monologg/KoELECTRA] (SKTBrain, 2019)** : pre-trained on 54M words from Korean Wikipedia (92M parameters and 8K vocab.). 
+- **KR-BERT[https://github.com/snunlp/KR-BERT] (Lee et al., 2020)** : pre-trained on 2.47GB corpus with 233M words from Korean Wikipedia and news, applying either
     - (1) the character-level tokenizer; or
     - (2) the sub-character-level tokenizer. 
 

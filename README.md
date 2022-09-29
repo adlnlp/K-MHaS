@@ -3,9 +3,8 @@
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
-**:movie_camera: Paper Presentation** 
-- Please click on the image below (link to youtube):
-[<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)
+**:movie_camera: Paper Presentation** Please click on the image below:
+<div align="center">[<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)</div>
 
 
 ## Dataset Description 
@@ -79,7 +78,7 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
 - The sub-character tokeniser can decompose Hangul(Korean language) syllable characters into sub-characters. 
 - It provides a great ability to detect a hate speech word, composed by each character in different hate speech labels.
 <img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/11_multiEval.png" width="70%">
----
+
 
 ## Contributors
 The contributors of the work are: 

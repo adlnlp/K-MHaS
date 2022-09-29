@@ -3,8 +3,9 @@
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
-**:movie_camera: Paper Presentation** Please click on the image below:
-<div align="center">[<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)</div>
+**:movie_camera: Paper Presentation** 
+Please click on the image below:
+[<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)
 
 
 ## Dataset Description 

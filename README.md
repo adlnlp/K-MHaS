@@ -60,7 +60,7 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
 
 - **[MultiBERT](https://huggingface.co/bert-base-multilingual-cased) (Wolf et al., 2020)** : pre-trained on the Wikipedia in 104 different languages (110M parameters and 119K vocab.). 
 - **[KoELECTRA](https://github.com/monologg/KoELECTRA) (Park, 2020)** : pre-trained on 34GB Korean news, Wikipedia, Namu (Korean wiki) and Modu (14M parameters and 35K vocab.). 
-- **[KoBERT](https://github.com/monologg/KoELECTRA) (SKTBrain, 2019)** : pre-trained on 54M words from Korean Wikipedia (92M parameters and 8K vocab.). 
+- **[KoBERT](https://github.com/SKTBrain/KoBERT) (SKTBrain, 2019)** : pre-trained on 54M words from Korean Wikipedia (92M parameters and 8K vocab.). 
 - **[KR-BERT](https://github.com/snunlp/KR-BERT) (Lee et al., 2020)** : pre-trained on 2.47GB corpus with 233M words from Korean Wikipedia and news, applying either
     - (1) the character-level tokenizer; or
     - (2) the sub-character-level tokenizer. 
@@ -96,6 +96,6 @@ The contributors of the work are:
 ## Citation
 If you use the dataset, please cite this our paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf) accepted by [COLING2022](https://coling2022.org/). 
 ```
-This will be updated once the conference link is available online. 
+This will be updated once the conference citation link is available online. 
 ```
 

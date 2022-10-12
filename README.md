@@ -1,4 +1,4 @@
-# [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf)
+# [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://aclanthology.org/2022.coling-1.311/)
 
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
@@ -83,7 +83,7 @@ We evaluate strong baseline experiments on our dataset using Korean-BERT-based l
 
 ## Contributors
 The contributors of the work are: 
-- [Jean Lee](https://github.com/jeanlee-ai) (Ph.D. candidate at the University of Sydney)
+- [Jean Lee](https://jeanlee-ai.github.io/) (Ph.D. candidate at the University of Sydney)
 - [Taejun Lim](https://github.com/taezun) (Mphil. candidate at the University of Sydney)
 - [Heejun Lee](https://bigwaveai.com/) (BigWave AI)
 - [Bogeun Jo](https://bigwaveai.com/) (BigWave AI)
@@ -94,8 +94,25 @@ The contributors of the work are:
 
 
 ## Citation
-If you use the dataset, please cite this our paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://arxiv.org/pdf/2208.10684.pdf) accepted by [COLING2022](https://coling2022.org/). 
+If you use the dataset, please cite this our paper [K-MHaS: A Multi-label Hate Speech Detection Dataset in Korean Online News Comment](https://aclanthology.org/2022.coling-1.311.pdf) accepted by [COLING2022](https://coling2022.org/). 
 ```
-This will be updated once the conference citation link is available online. 
+@inproceedings{lee-etal-2022-k,
+    title = "K-{MH}a{S}: A Multi-label Hate Speech Detection Dataset in {K}orean Online News Comment",
+    author = "Lee, Jean  and
+      Lim, Taejun  and
+      Lee, Heejun  and
+      Jo, Bogeun  and
+      Kim, Yangsok  and
+      Yoon, Heegeun  and
+      Han, Soyeon Caren",
+    booktitle = "Proceedings of the 29th International Conference on Computational Linguistics",
+    month = oct,
+    year = "2022",
+    address = "Gyeongju, Republic of Korea",
+    publisher = "International Committee on Computational Linguistics",
+    url = "https://aclanthology.org/2022.coling-1.311",
+    pages = "3530--3538",
+    abstract = "Online hate speech detection has become an important issue due to the growth of online content, but resources in languages other than English are extremely limited. We introduce K-MHaS, a new multi-label dataset for hate speech detection that effectively handles Korean language patterns. The dataset consists of 109k utterances from news comments and provides a multi-label classification using 1 to 4 labels, and handles subjectivity and intersectionality. We evaluate strong baselines on K-MHaS. KR-BERT with a sub-character tokenizer outperforms others, recognizing decomposed characters in each hate speech class.",
+}
 ```
 

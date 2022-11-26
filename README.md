@@ -7,6 +7,8 @@
 : Please click on the image below.
 [<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/1_K-MHaS.png" width="70%">](https://www.youtube.com/watch?v=r5i5emeEwsY)
 
+** 26 Nov 2022 : HuggingFace update** our dataset can be loaded through [huggingface](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech). Please refer to the [colab code](https://colab.research.google.com/drive/1my6wd7Fa92EAoQLu5RvaqvTVirxNSjZQ).
+
 
 ## Korean Multi-label Hate Speech Dataset 
 We introduce **K-MHaS**, a new multi-label dataset for **hate speech detection** that effectively handles **Korean** language patterns. 
@@ -32,6 +34,8 @@ Our annotation scheme has two layers:
 
 For the fine-grained classification, a `Hate Speech` class from the binary classification, is broken down into eight classes, associated with the hate speech category. In order to reflect the social and historical context, we select the eight hate speech classes. For example, the `politics` class is chosen, due to a significant influence on the style of Korean hate speech.
 
+- Comparison of datasets
+<img src="https://github.com/adlnlp/K-MHaS/blob/main/resource/5_literature.png" width="60%">
 
 ## Dataset Details
 In this repository, we provide splitted datasets that have 78,977(train) / 8,776 (validation) / 21,939 (test) samples, preserving the class proportion. The label numbers matching in both English and Korean is below. 

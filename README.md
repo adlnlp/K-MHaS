@@ -3,9 +3,8 @@
 ### <div align="center"> Jean Lee, Taejun Lim, Heejun Lee, Bogeun Jo, <br> Yangsok Kim, Heegeun Yoon and Soyeon Caren Han.</div>
 ### <div align="center"> Accepted by the 29th International Conference on Computational Linguistics <br> (COLING 2022).</div>
 
-[<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>](https://colab.research.google.com/drive/1my6wd7Fa92EAoQLu5RvaqvTVirxNSjZQ)
-
-**26 Nov 2022 : HuggingFace update** our dataset can be loaded through [huggingface](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech). Please refer to the [colab code](https://colab.research.google.com/drive/1my6wd7Fa92EAoQLu5RvaqvTVirxNSjZQ).
+- [<img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>](https://colab.research.google.com/drive/1my6wd7Fa92EAoQLu5RvaqvTVirxNSjZQ)
+**26 Nov 2022 : HuggingFace update** our dataset can be loaded through [huggingface](https://huggingface.co/datasets/jeanlee/kmhas_korean_hate_speech). 
 
 
 **:movie_camera: Paper Presentation** 

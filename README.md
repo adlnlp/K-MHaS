@@ -95,7 +95,7 @@ The contributors of the work are:
 - [Bogeun Jo](https://bigwaveai.com/) (BigWave AI)
 - Yangsok Kim (Professor at Keimyung University)
 - Heegeun Yoon (National Information Society Agency)
-- [Soyeon Caren Han](https://drcarenhan.github.io/) (Senior lecturer at the University of Western Australia, Honorary senior lecturer at the University of Sydney)
+- [Soyeon Caren Han](https://drcarenhan.github.io/) (Senior lecturer at the University of Melbourne)
 
 
 
